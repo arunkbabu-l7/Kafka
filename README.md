@@ -36,6 +36,12 @@ $CONFLUENT_HOME/bin/kafka-server-start $CONFLUENT_HOME/etc/kafka/server.properti
 ```
 $CONFLUENT_HOME/bin/schema-registry-start $CONFLUENT_HOME/etc/schema-registry/schema-registry.properties
 ```
+  
+OR
+
+```
+confluent local services schema-registry start
+```
 
 -   Start Control Center
 
