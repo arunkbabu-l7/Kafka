@@ -5,6 +5,12 @@
 
 - Make sure you are inside the bin/windows directory of Kafka Confluent distribution.
 
+## Start Everything all at once
+
+```
+confluent local services start
+```
+
 ## Start Zookeeper and Kafka Broker
 
 -   Start Zookeeper
