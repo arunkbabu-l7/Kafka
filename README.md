@@ -62,3 +62,9 @@ confluent local services stop
 ```
 confluent local services control-center start
 ```
+
+-   Clean Up all Confluent temp files and data
+
+```
+confluent local destroy
+```
