@@ -1,7 +1,6 @@
 
 # Setting Up Confluent Kafka 3.0.0
 
-<details><summary>Windows</summary>
 <p>
 
 - Make sure you are navigated inside the bin/windows directory.
