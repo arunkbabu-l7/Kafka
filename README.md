@@ -3,7 +3,7 @@
 
 <p>
 
-- Make sure you are navigated inside the bin/windows directory.
+- Make sure you are inside the bin/windows directory of Kafka Confluent distribution.
 
 ## Start Zookeeper and Kafka Broker
 
