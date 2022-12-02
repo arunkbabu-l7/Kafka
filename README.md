@@ -42,3 +42,23 @@ $CONFLUENT_HOME/bin/schema-registry-start $CONFLUENT_HOME/etc/schema-registry/sc
 ```
 $CONFLUENT_HOME/bin/control-center-start $CONFLUENT_HOME/etc/confluent-control-center/control-center.properties
 ```
+
+## Other Confluent Commands
+  
+-   Service Status
+
+```
+confluent local services status
+```
+  
+-   Stop Services
+
+```
+confluent local services stop
+```
+  
+-   Start Control Center
+
+```
+confluent local services control-center start
+```
