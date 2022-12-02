@@ -12,6 +12,12 @@ confluent local services start
 ```
 
 ## Start Zookeeper and Kafka Broker
+  
+-   Start Both at once
+
+```
+confluent local services kafka start
+```
 
 -   Start Zookeeper
 
