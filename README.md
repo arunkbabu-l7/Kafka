@@ -10,11 +10,23 @@
 -   Start Zookeeper
 
 ```
-zookeeper-server-start.bat ..\..\etc\kafka\zookeeper.properties
+$CONFLUENT_HOME/bin/zookeeper-server-start $CONFLUENT_HOME/etc/kafka/zookeeper.properties
 ```
 
 -   Start Kafka Broker
 
 ```
-kafka-server-start.bat ..\..\etc\kafka\server.properties
+$CONFLUENT_HOME/bin/kafka-server-start $CONFLUENT_HOME/etc/kafka/server.properties
+```
+
+-   Start Schema Registry
+
+```
+$CONFLUENT_HOME/bin/schema-registry-start $CONFLUENT_HOME/etc/schema-registry/schema-registry.properties
+```
+
+-   Start Control Center
+
+```
+$CONFLUENT_HOME/bin/control-center-start $CONFLUENT_HOME/etc/confluent-control-center/control-center.properties
 ```
